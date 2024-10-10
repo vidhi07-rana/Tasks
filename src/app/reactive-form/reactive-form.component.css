@@ -1,0 +1,80 @@
+/* Styles for the row and column */
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-ms-12 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Styles for the form and its elements */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Styles for checkboxes and their text */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+div.row > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Disabled button styles */
+button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover:not([disabled]) {
+    background-color: #14181c;
+}

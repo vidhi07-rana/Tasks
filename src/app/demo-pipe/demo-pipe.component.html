@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-ms-12">
+        <p>Date: {{date | date: 'medium'}}</p>
+        <p>Date: {{date | date: 'full'}}</p>
+        <p>Date: {{date | date: 'short'}}</p>
+        <p>Date: {{date | date: 'shortTime'}}</p>
+
+        <p>{{'Form Is here' | uppercase }}</p>
+        <p>{{'Form Is here' |   lowercase }}</p>
+        <p>Total: {{ amount | currency:'INR' }}</p>
+       <p> {{ company | titlecase }}</p>
+       <p>{{ {'message': 'Form Is here'} |   json }}</p>
+       <p>{{amount | percent}}</p>
+       <p>{{user.birthYear| Age}}</p>
+
+       
+
+    </div>
+</div>
