@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './counter.component.css'
 })
 export class CounterComponent {
-count: number = 0
 
 
 }
