@@ -1,0 +1,19 @@
+<h1>User Info.</h1>
+
+<div class="row">
+  <div class="col" *ngIf="users.length === 0">
+    No user Found
+  </div>
+</div>
+
+<div class="row" *ngIf="users.length > 0">
+  <div class="col">
+    <ul>
+      <li *ngFor="let user of users">
+        Id: {{ user.id }}<br>
+        Name: {{ user.name }}<br>
+        Department: {{ user.deparment }}
+      </li>
+    </ul>
+  </div>
+</div>

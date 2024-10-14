@@ -1,0 +1,50 @@
+/* Style the heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  /* Center the row vertically and horizontally */
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the "No user found" message */
+  .col {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+    padding: 10px;
+  }
+  
+  /* Styling the user info list */
+  ul {
+    list-style: none;
+    padding: 3px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  li {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Remove the border from the last item */
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Add spacing between multiple user lists */
+  .row .col ul {
+    margin-bottom: 15px;
+  }
+  

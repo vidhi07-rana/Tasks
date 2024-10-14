@@ -1,0 +1,50 @@
+/* conditional-rendering.component.css */
+
+/* Container for the row */
+.row {
+    margin: 20px; /* Space around the row */
+  }
+  
+  /* Style for the column */
+  .col-ms-12 {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center the items horizontally */
+    justify-content: center; /* Center the items vertically */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Button styles */
+  .btn {
+    margin: 10px 0; /* Space above and below the button */
+    padding: 10px 20px; /* Increase button size */
+    font-size: 16px; /* Increase font size */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 18px; /* Larger font size for visibility */
+    margin: 10px 0; /* Space above and below paragraphs */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .row {
+      margin: 10px; /* Reduce margin on smaller screens */
+    }
+  
+    .btn {
+      width: 100%; /* Full width buttons on small screens */
+    }
+  }
+  

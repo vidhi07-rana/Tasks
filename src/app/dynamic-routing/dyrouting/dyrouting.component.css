@@ -1,0 +1,41 @@
+/* Basic reset for the nav */
+nav {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    background-color: #f8f9fa; /* Light background for the nav */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  /* Styles for the links */
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 15px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Hover effect for links */
+  nav a:hover {
+    background-color: #132b45;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Active link style (when the route is active) */
+  nav a.active {
+    background-color: #1c3753;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* General styling for the router-outlet content */
+  router-outlet {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  

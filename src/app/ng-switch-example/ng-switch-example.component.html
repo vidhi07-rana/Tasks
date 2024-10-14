@@ -1,1 +1,17 @@
-<p>ng-switch-example works!</p>
+<div class="row">
+    <div class="col-ms-12">
+        <button (click)="onselectOption('option1')">Option 1 </button>
+        <button (click)="onselectOption('option2')">Option 2 </button>
+        <button (click)="onselectOption('option3')">Option 3 </button>
+
+      <div [ngSwitch]="selectOption">
+            <div *ngSwitchCase="'option1'">Option 1</div>
+            <div *ngSwitchCase="'option2'">Option 2</div>
+            <div *ngSwitchCase="'option3'">Option 3</div>
+            <div *ngSwitchDefault>No Option</div>
+        </div>
+
+        
+
+    </div>
+</div>
