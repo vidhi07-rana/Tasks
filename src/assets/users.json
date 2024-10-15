@@ -1,5 +1,7 @@
 [
-    { "id": 1, "name": "Emily", "department": "Computer" },
-    { "id": 2, "name": "John", "department": "IT" },
-    { "id": 3, "name": "Sarah", "department": "HR" }
+    { "id": 1, "name": "Emily", "deparment": "Computer" },
+    { "id": 2, "name": "John", "deparment": "IT" },
+    { "id": 3, "name": "Sarah", "deparment": "HR" },
+    { "id": 3, "name": "Riya", "deparment": "HR" }
+
 ]

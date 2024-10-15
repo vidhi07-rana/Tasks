@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col">
+    <label for="search">Search:</label>
+    <input id="search" [formControl]="searchControl" placeholder="Type to search..." />
+    <ul *ngIf="suggestions.length > 0">
+      <li *ngFor="let suggestion of suggestions">{{ suggestion }}</li>
+    </ul>
+    </div>
+  </div>
+  

@@ -1,0 +1,65 @@
+/* Container Styling */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .col {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Inner Content Styling */
+  div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Headings */
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  h4 {
+    margin-top: 15px;
+    color: #343a40;
+  }
+  
+  /* Unordered List Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Paragraph Styling */
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #495057;
+    text-align: center;
+  }
+  

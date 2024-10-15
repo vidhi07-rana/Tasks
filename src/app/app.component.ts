@@ -12,6 +12,7 @@ import { RandomColorComponent } from './random-color/random-color.component';
 import { ParentComponent } from "./ng-projection/parent/parent.component";
 import { NgIfNgForComponent } from "./ng-if-ng-for/ng-if-ng-for.component";
 import { HttpClientComponent } from "./http-client/http-client.component";
+import { ObservableComponent } from "./observable/observable.component";
 
 @Component({
   selector: 'app-root',
@@ -26,7 +27,7 @@ import { HttpClientComponent } from "./http-client/http-client.component";
     DyroutingComponent,
     ConditionalComp5Component,
     NgTemplateOutletComponent,
-    RandomColorComponent, ParentComponent, NgIfNgForComponent, HttpClientComponent],
+    RandomColorComponent, ParentComponent, NgIfNgForComponent, HttpClientComponent, ObservableComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

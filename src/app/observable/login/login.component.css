@@ -1,0 +1,41 @@
+/* login.component.css */
+/* home.component.css */
+.row {
+    display: flex;
+    justify-content: center; /* Align content horizontally */
+    align-items: center; /* Align content vertically */
+    min-height: 100vh; /* Take full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .col {
+    text-align: center; /* Center text inside the column */
+    padding: 20px;
+  }
+  
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 12px 24px; /* Spacing inside the button */
+    font-size: 1.2rem; /* Larger font size */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  button:active {
+    background-color: #3e8e41; /* Even darker when clicked */
+    transform: scale(0.95); /* Button slightly shrinks on click */
+  }
+    
+  p {
+    font-size: 1.2rem;
+    color: #555; /* Slightly dark text */
+  }
+  

@@ -1,0 +1,11 @@
+<div>
+    <label for="search">Search:</label>
+    <input id="search" type="text" [formControl]="searchControl" placeholder="Type to search..." />
+    
+    <ul *ngIf="suggestions.length > 0">
+      <li *ngFor="let suggestion of suggestions">
+        {{ suggestion.title }}
+      </li>
+    </ul>
+  </div>
+  
