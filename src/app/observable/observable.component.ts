@@ -8,6 +8,9 @@ import { UserPostsComponent } from "./user-posts/user-posts.component";
 import { TypeaheadTasks5Component } from "./typeahead-tasks-5/typeahead-tasks-5.component";
 import { CombineLatestComponent } from "./combine-latest/combine-latest.component";
 import { OperatorTakeFirstComponent } from "./operator-take-first/operator-take-first.component";
+import { CatchErrorComponent } from "./catch-error/catch-error.component";
+import { AsyncAwaitComponent } from "./async-await/async-await.component";
+import { TakeUntilExampleComponent } from "./take-until-example/take-until-example.component";
 
 @Component({
   selector: 'app-observable',
@@ -19,7 +22,7 @@ import { OperatorTakeFirstComponent } from "./operator-take-first/operator-take-
     OperatorPipeMapComponent,
     TypeaheadComponent,
     UserPostsComponent,
-    TypeaheadTasks5Component, CombineLatestComponent, OperatorTakeFirstComponent],
+    TypeaheadTasks5Component, CombineLatestComponent, OperatorTakeFirstComponent, CatchErrorComponent, AsyncAwaitComponent, TakeUntilExampleComponent],
   templateUrl: './observable.component.html',
   styleUrl: './observable.component.css'
 })

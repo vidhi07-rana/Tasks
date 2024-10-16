@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-ms-8">
+        <h2>Async/Await Example</h2>
+        <button (click)="fetchData()">Fetch Data</button>
+        <div *ngIf="data">{{ data }}</div>
+        <div *ngIf="error" style="color: red;">{{ error }}</div>
+    </div>
+</div>

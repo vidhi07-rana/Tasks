@@ -1,0 +1,45 @@
+/* Layout Styling */
+.row {
+    display: flex;
+    justify-content: center;  /* Center content horizontally */
+    margin-top: 20px;         /* Add space at the top */
+  }
+  
+  .col-ms-12 {
+    max-width: 800px;  /* Limit the column width */
+    width: 100%;       /* Full width for responsiveness */
+    text-align: center;
+  }
+  
+  /* Navbar Container Styling */
+  nav {
+    background-color: #333;  /* Dark background for the navbar */
+    padding: 20px 0;         /* Vertical padding */
+    border-radius: 8px;      /* Rounded corners */
+    margin-top: 15px;        /* Space below the heading */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Link Styling */
+  .link {
+    text-decoration: none;     /* Remove underline */
+    color: #fff;               /* White text for dark background */
+    font-size: 18px;
+    padding: 10px 20px;        /* Add padding around the links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    margin: 0 10px;            /* Space between links */
+  }
+  
+  /* Active Link Styling */
+  .active {
+    background-color: #007bff; /* Blue background for the active link */
+    color: white;              /* Ensure active text stays white */
+    border-radius: 4px;         /* Round the edges of the active link */
+  }
+  
+  /* Hover Effect for Links */
+  .link:hover {
+    background-color: #555;     /* Darker background on hover */
+    border-radius: 4px;         /* Consistent with the active link */
+  }
+  

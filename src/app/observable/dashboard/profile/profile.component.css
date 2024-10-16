@@ -1,0 +1,29 @@
+/* Layout for the row and column */
+.row {
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+    margin-top: 20px;         /* Add space from the top */
+  }
+  
+  .col-ms-8 {
+    max-width: 800px;  /* Limit the width of the column */
+    width: 100%;       /* Make it responsive */
+    padding: 15px;     /* Add inner padding */
+    background-color: #f9f9f9; /* Light background for better appearance */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  }
+  
+  /* Text Styling */
+  h3 {
+    margin-top: 0;  /* Remove default top margin */
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
