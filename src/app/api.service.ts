@@ -12,7 +12,7 @@ export class ApiService {
 
   search(term: string | null): Observable<any[]> {
     return this.http.get<string[]>(`https://jsonplaceholder.typicode.com/posts?title_like=${term}`);
-  }
+  } 
 
   getUsers(): Observable<any> {
     return this.http.get<User[]>('https://jsonplaceholder.typicode.com/users');

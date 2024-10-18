@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-ms-12">
+        <div [ngClass]="{'active-class': isActive, 'inactive-class': !isActive}">
+            This text will change class dynamically!
+          </div>
+          <button (click)="onToggle()">Toggle Active State</button>    </div>
+</div>

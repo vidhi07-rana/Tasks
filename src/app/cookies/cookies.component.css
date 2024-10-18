@@ -1,0 +1,28 @@
+/* Centering the row within the page */
+.row {
+    margin-top: 50px; /* Adds space from the top */
+    justify-content: center; /* Centers the content horizontally */
+  }
+  
+  /* Styling the column */
+  .col-ms-12 {
+    max-width: 500px; /* Controls the width of the content */
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    text-align: center; /* Centers the content inside */
+  }
+  
+  /* Button Styling */
+  button {
+    margin: 5px; /* Spacing between buttons */
+  }
+  
+  /* Spacing for Paragraph */
+  p {
+    font-size: 18px;
+    color: #495057; /* Medium gray text */
+    margin-top: 15px;
+  }
+  

@@ -25,18 +25,18 @@ export class CatchErrorComponent {
         })
       )
       .subscribe((data) => {
-        this.message = data; // Display the fallback value
+        this.message = data; 
       });
   }
 
   handleErrorWithSubscribe() {
     this.faultyObservable().subscribe({
       next: (data) => {
-        this.message = data; // This won't be executed
+        this.message = data; 
       },
       error: (error) => {
         console.error('Error handled in subscribe:', error.message);
-        this.message = 'Error handled in subscribe: ' + error.message; // Display the error message
+        this.message = 'Error handled in subscribe: ' + error.message;        
       },
       complete: () => console.log('Observable completed.'),
     });

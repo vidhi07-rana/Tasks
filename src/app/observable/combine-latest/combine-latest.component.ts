@@ -21,10 +21,8 @@ ngOnInit(): void {
     this.ageControl.valueChanges.pipe(startWith(''))
   ]).subscribe(([name, age])=>{
     this.combinedResult= `Name: ${name},  Age: ${age}`
-  }
-    
+  }  
   )
-  
 }
 
 }

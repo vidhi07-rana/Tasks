@@ -22,7 +22,13 @@ import { TakeUntilExampleComponent } from "./take-until-example/take-until-examp
     OperatorPipeMapComponent,
     TypeaheadComponent,
     UserPostsComponent,
-    TypeaheadTasks5Component, CombineLatestComponent, OperatorTakeFirstComponent, CatchErrorComponent, AsyncAwaitComponent, TakeUntilExampleComponent],
+    TypeaheadTasks5Component, 
+    CombineLatestComponent, 
+    OperatorTakeFirstComponent, 
+    CatchErrorComponent, 
+    AsyncAwaitComponent, 
+    TakeUntilExampleComponent
+  ],
   templateUrl: './observable.component.html',
   styleUrl: './observable.component.css'
 })

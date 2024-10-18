@@ -14,29 +14,31 @@ export class AsyncAwaitComponent {
 
 private fetchDataFromServer(): Promise<string>{
   return new Promise((resolve, reject)=>{
-setTimeout(()=>{
-  const success = Math.random() > 0.5;
-  if(success){
-    resolve("Promise resolve successfully ")
-
-  }else{
-    reject('Promise Rejected')
-  }
-},2000)
-  
+    setTimeout(()=>
+      {
+        const success = Math.random() > 0.5;
+        if(success)
+          {
+            resolve("Promise resolve successfully ")
+          }else
+          {
+            reject('Promise Rejected')
+          }
+      },2000)
   })
 }
 
 
- async  fetchData(){
- this.data = null;
- this.error = null
+ async  fetchData()
+ {
+   this.data = null;       
+    this.error = null
 
  try{
-  this.data= await this.fetchDataFromServer();
- }catch (err: any) {
-  this.error = err; // Handle error
-}
+      this.data= await this.fetchDataFromServer();
+    }catch (err: any) {
+      this.error = err;
+    }
   }
 
 }

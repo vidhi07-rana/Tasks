@@ -39,7 +39,7 @@ export class UserPostsComponent implements OnInit {
       error: (err) => {
         console.error('Error fetching data:', err);
       }
-    }); 
+        }); 
   }
 
 

@@ -44,5 +44,5 @@ export class TypeaheadComponent implements OnInit {
     }
 
   }
-
+   
 }

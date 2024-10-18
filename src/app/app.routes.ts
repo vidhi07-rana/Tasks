@@ -12,11 +12,13 @@ import { SettingsComponent } from './observable/dashboard/settings/settings.comp
 // Define routes
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomePageComponent,  canActivate: [AuthGuard] },
+  { path: 'home', 
+    loadComponent: () => import('./observable/home-page/home-page.component').then(m => m.HomePageComponent),
+    canActivate: [AuthGuard], },
   { path: 'login', component: LoginComponent },
-  { 
+  {   
     path: 'dashboard', 
-    component: DashboardComponent,
+    loadComponent: () => import('./observable/dashboard/dashboard.component').then(m => m.DashboardComponent),
     children: [
       { path: 'profile', component: ProfileComponent },
       { path: 'settings', component: SettingsComponent }
@@ -28,6 +30,10 @@ export const routes: Routes = [
   // { path: '', component: HomeComponent },
   // { path: 'about', component: AboutComponent },
   // Add more routes here
+  {
+  path:'admin',
+  loadChildren: ()=> import('./admin/admin.module').then(m=>m.AdminModule)
+  }
 ];
 
 @NgModule({

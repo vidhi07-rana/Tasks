@@ -17,7 +17,7 @@ lastNumber: number | undefined;
 ngOnInit(): void {
   const numberStream$ : Observable<number>= interval(500).pipe(take(10))
 
-  numberStream$.pipe(take(3)).subscribe(value=>{
+      numberStream$.pipe(take(3)).subscribe(value=>{
     this.numbers.push(value);
   })
 
@@ -30,3 +30,4 @@ ngOnInit(): void {
   })
 }
 }
+ 

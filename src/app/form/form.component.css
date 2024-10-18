@@ -1,0 +1,82 @@
+/* form.component.css */
+
+/* General Styles */
+.row {
+    margin: 20px 0;
+}
+
+.col-ms-12 {
+    margin: auto;
+    max-width: 600px; /* Center the column and set a maximum width */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border around the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Heading Styles */
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+/* Label Styles */
+.form-label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make label text bold */
+}
+
+/* Input Styles */
+.form-input {
+    width: 100%; /* Make the input take the full width */
+    padding: 10px; /* Add some padding inside the input */
+    margin-top: 10px; /* Space above the input */
+    margin-bottom: 20px; /* Space below the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for the input */
+    font-size: 16px; /* Font size */
+}
+
+/* Error Message Styles */
+.error-message {
+    color: red; /* Red color for error messages */
+    font-size: 14px; /* Font size for error messages */
+}
+
+/* Current Value Styles */
+.current-value {
+    text-align: center; /* Center the current value text */
+    font-size: 16px; /* Font size */
+    color: #555; /* Slightly lighter color */
+}
+
+/* Button Group Styles */
+.button-group {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: center; /* Center the buttons */
+    margin-top: 15px; /* Space above buttons */
+}
+
+.btn {
+    padding: 10px 20px; /* Button padding */
+    margin: 0 10px; /* Space between buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white; /* White text */
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+    opacity: 0.9; /* Slightly transparent on hover */
+}

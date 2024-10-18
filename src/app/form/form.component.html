@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-ms-12">
+        <div class="form-container">
+            <h2>Form</h2>
+            <label for="inputField" class="form-label">Enter Value:</label>
+            <input 
+              id="inputField" 
+              type="text" 
+              [(ngModel)]="formsValue" 
+              (ngModelChange)="onValueChange($event)" 
+              placeholder="Type something..." 
+              required 
+              class="form-input"
+            />
+            <div *ngIf="!formsValue && formsValue !== ''" class="error-message">
+              Please enter a value.
+            </div>
+            <p class="current-value">Current Value: {{ formsValue }}</p>
+            <div class="button-group">
+                <button (click)="resetForm()" class="btn btn-danger">Reset</button>
+                <button (click)="submitForm()" class="btn btn-primary">Submit</button>
+            </div>
+        </div>   
+    </div>
+</div>

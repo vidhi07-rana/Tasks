@@ -1,0 +1,52 @@
+/* Styling the container and row */
+.row {
+    margin-top: 20px;
+    justify-content: center; /* Center the row horizontally */
+  }
+  
+  /* Column Styling */
+  .col-ms-8 {
+    max-width: 700px; /* Adjust as needed */
+    padding: 15px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styles */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #343a40; /* Dark gray */
+  }
+  
+  /* Paragraph Styling */
+  p {
+    font-size: 18px;
+    color: #495057; /* Medium gray */
+    margin-bottom: 15px;
+  }
+  
+  /* User List Styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #e9ecef; /* Slightly darker background for list items */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #212529; /* Darker text */
+  }
+  
+  /* Hover Effect for List Items */
+  li:hover {
+    background-color: #dee2e6;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  

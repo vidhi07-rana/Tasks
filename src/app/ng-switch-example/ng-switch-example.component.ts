@@ -12,7 +12,7 @@ export class NgSwitchExampleComponent {
 selectOption! : string 
 
 onselectOption(option:string){
-this.selectOption = option
+this.selectOption = option;
 
 
 }
